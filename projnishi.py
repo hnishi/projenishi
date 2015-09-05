@@ -1,4 +1,4 @@
-# projenishi
+# projnishi.py v 1.0
 #projection into PC space with a PCA eigenvector and average.
 import numpy as np
 
