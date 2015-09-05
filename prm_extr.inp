@@ -1,0 +1,31 @@
+# extr_coord.cpp input-parameter file
+
+# :::::::::      :::::::::::::::::::::::::::
+# output
+OUTFILE coord.dat
+
+# trajectory settings
+STRIDE 1   # mabiki
+STARTFRAME  1
+
+# selection
+#PCAATOM all: all atoms in pdb, protein: atoms without solvent (resn WAT, CIP and CIM), heavy: heavy atoms, ca: CA (atom name) atoms in mainchain, mainchain: CA, N, C and O atoms in mainchain 
+PCAATOM  ca   
+STARTCHAIN B space  B  # space; white space " " can be set using keyword "space" 
+STARTRES 206 # 210  #1  # 210
+ENDCHAIN B space   B  # space; white space " " can be set using keyword "space" 
+ENDRES 226 # 222  #234  # 222
+SUPERPBASE  YES
+
+
+# pcanishi input-parameter file
+#
+#
+# ::::::::::::: input setting :::::::::::::::::::::
+# input
+#REFPDBNAME  /work1/hnishi/4thTrial/ama2/crystal.pdb 
+REFPDBNAME  /work01/hnishi/4thTrial/cano_cry/md/inp_data/cry_cano.pdb
+
+# ::::: COD LIST :::::
+COD1   /work01/hnishi/4thTrial/cano_cry/md/cano1/no1/cano1.crd 
+

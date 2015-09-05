@@ -1,0 +1,18 @@
+# projenishi input-parameter file
+
+# :::::::::   input data   :::::::::::::::::::::::::::
+IHFILE coord.dat
+EIGENVEC e1.dat
+AVERAGEQ aveq.dat
+
+# infomation
+NUMOFSTRU 1002  
+NUMOFCOMP  63    #ca atoms of 21 residues * 3 of x,y,z
+
+
+# ::: output file name :::
+#OUTPCMARKER:PC1, PC2, PC3, and so on will be output as named pc1"OUTPC".dat pc2"OUTPC".dat ...
+OUTCOORD pc1.dat
+
+
+
