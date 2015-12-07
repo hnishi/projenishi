@@ -25,7 +25,7 @@ def get_options():
 
 ############ main ##############
 print "projnishi.py"
-print "Projection from principle component analysis (PCA)"
+print "Projection from principal component analysis (PCA)"
 opts, args = get_options()
 
 fn_trj = 'coord.dat'
